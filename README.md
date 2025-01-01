@@ -96,32 +96,32 @@ The dataset used in this project is the **Bank Marketing Dataset**, which contai
 ## Results  
 
 ### Random Forest Classifier  
-- **Accuracy:** 94.71%  
+- **Accuracy:** 91.40%  
 - **Classification Report:**  
 
 | Class | Precision | Recall | F1-Score | Support |  
 |-------|-----------|--------|----------|---------|  
-| 0     | 0.96      | 0.93   | 0.95     | 7317    |  
-| 1     | 0.93      | 0.97   | 0.95     | 7303    |  
+| 0     | 0.94      | 0.97   | 0.95     | 7302    |  
+| 1     | 0.66      | 0.50   | 0.57     | 936     |  
 
 - **Overall Metrics:**  
-  - Macro Average: Precision: 0.95, Recall: 0.95, F1-Score: 0.95  
-  - Weighted Average: Precision: 0.95, Recall: 0.95, F1-Score: 0.95  
+  - Macro Average: Precision: 0.81, Recall: 0.74, F1-Score: 0.77  
+  - Weighted Average: Precision: 0.91, Recall: 0.92, F1-Score: 0.91  
 
 ---
 
 ### Neural Network (MLP) Classifier  
-- **Accuracy:** 92.07%  
+- **Accuracy:** 89.99%  
 - **Classification Report:**  
 
 | Class | Precision | Recall | F1-Score | Support |  
 |-------|-----------|--------|----------|---------|  
-| 0     | 0.93      | 0.91   | 0.92     | 7317    |  
-| 1     | 0.91      | 0.93   | 0.92     | 7303    |  
+| 0     | 0.93      | 0.96   | 0.94     | 7302    |  
+| 1     | 0.58      | 0.42   | 0.49     | 939     |  
 
 - **Overall Metrics:**  
-  - Macro Average: Precision: 0.92, Recall: 0.92, F1-Score: 0.92  
-  - Weighted Average: Precision: 0.92, Recall: 0.92, F1-Score: 0.92  
+  - Macro Average: Precision: 0.76, Recall: 0.69, F1-Score: 0.72  
+  - Weighted Average: Precision: 0.89, Recall: 0.90, F1-Score: 0.89 
 
 ---
 
